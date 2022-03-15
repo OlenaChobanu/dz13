@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gilroy', sans-serif;
+}
+
+main {
+    position: relative;
+}
+
+.header {
+    padding-top: 33px;
+    padding-bottom: 30px;
+}
+
+.wrapper {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    padding-bottom: 16px;
+}
+
+.logo {
+    display: block;
+    width: 244px;
+    height: 45px;
+    margin-bottom: 60px;
+}
+
+.navigation{
+    position: relative;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.navigation-link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4F4F4F;
+    margin-right: 40px;
+}
+
+.navigation-link:last-child {
+    margin-right: 0;
+}
+
+.eva-arrow-ios-upward-outline {
+    position: relative;
+    transform: rotate(180deg);
+    top: 3px;
+    right: 0;
+    width: 19px;
+    height: 15px;
+    padding-right: 4px;
+}
+
+.header-right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 9px;
+}
+
+.header-right-top {
+    display: flex;
+    justify-content: end;
+}
+
+.phone-number {
+    position: relative;
+    margin-right: 60px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
+}
+
+.carbon-phone {
+    position: relative;
+    top: 6px;
+    width: 24px;
+    height: 24px;
+    margin-right: 9px;
+}
+
+.cart {
+    margin-right: 15px;
+}
+
+.full-cart {
+    position: absolute;
+    top: 4px;
+    right: 40px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #06D10E;
+    text-align: center;
+}
+
+.search-form {
+    position: relative;
+}
+
+.search {
+    width: 345px;
+    padding: 17px 65px 17px 20px;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+}
+
+.search::placeholder {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.invisible-button {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border: none;
+}
+
+.search-button {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    background-color: transparent;
+    background-image: url(../images/search.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px 31px;
+}

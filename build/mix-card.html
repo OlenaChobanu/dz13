@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Breakable Ecology Mix Card</title>
+        <link rel="stylesheet" href="./styles/normalize.css">
+        <link rel="stylesheet" href="./fonts/Gilroy/stylesheet.css">
+        <link rel="stylesheet" href="./fonts/Montserrat-Regular.woff">
+        <link rel="stylesheet" href="./fonts/Roboto-Medium.woff">
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="wrapper header-wrapper">
+                <div class="header-left">
+                    <a href="#" class="logo">
+                    <img src="./images/logo.svg" alt="logo" width="244" height="45">
+                    </a>
+                    <div class="navigation">
+                        <a href="#" class="link navigation-link catalog">Каталог<span class="iconify eva-arrow-ios-upward-outline" data-icon="eva:arrow-ios-upward-outline"></span></a>
+                        <a href="#" class="link navigation-link">О проекте</a>
+                        <a href="#" class="link navigation-link">Птицы</a>
+                        <a href="#" class="link navigation-link">Пожертвования</a>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="header-right-top">
+                        <a href="tel:89209994350" class="link phone-number">
+                            <span class="iconify carbon-phone" data-icon="carbon:phone"></span>
+                            8 920 999 43 50
+                        </a>
+                        <a href="#" class="link">
+                            <img src="./images/cart.svg" alt="cart" class="cart" width="35" height="38">
+                        </a>
+                        <a href="#" class="link">
+                            <img src="./images/user.svg" alt="user" width="30" height="31">
+                        </a>
+                        <div class="full-cart">
+                            <span class="item-number">2</span>
+                        </div>
+                    </div>                    
+                    <form action="https://fom.in.ua/echo" method="post" class="search-form">
+                        <input type="text" placeholder="Поиск" name="search" class="search">
+                        <button type="submit" class="button invisible-button search-button"></button>
+                    </form>                    
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="wrapper">
+                <a href="#" class="link bread-crumb-link first-bread-crumb-link">Каталог</a>
+                <a href="#" class="link bread-crumb-link">Готовые миксы</a>    
+                <span class="link bread-crumb-link">PADOVAN OVOMIX GOLD ROSSO</span>
+                <div class="return">
+                    <a href="#" class="link return-link">
+                        <span class="iconify eva-arrow-ios-leftward-outline" data-icon="eva:arrow-ios-upward-outline"></span>
+                        Назад
+                    </a>
+                </div>           
+                <div class="product-card">
+                    <img class="product-card-image" src="./images/card-image.jpg" alt="card-image" width="558" height="558">
+                    <div class="product-information">
+                        <div class="product-info">
+                            <h1 class="product-info-title product-info-title-main">PADOVAN OVOMIX</h1>
+                            <h2 class="product-info-title">GOLD ROSSO</h2>
+                            <p class="product-info-description">Дополнительный пюреобразный пигментирующий корм, для птенцов с красным оперением.<br>Отлично подходит для увеличения поступления питательных веществ на особенных этапах жизни зерноядных птиц (при линьке и размножении), а также в периоды, когда животное испытывает стресс.</p>
+                        </div>
+                        <div class="product-card-form">
+                            <form action="https://fom.in.ua/echo" method="post">
+                                <div class="weight-inputs product-weight-inputs ">
+                                    <input type="radio" name="weight"  id="0-200" value="0.2" class="weight-input" checked>
+                                    <label for="0-200" class="weight product-weight">200 г</label>
+                                    <input type="radio" name="weight"  id="0-400" value="0.4" class="weight-input">
+                                    <label for="0-400" class="weight product-weight">400 г</label>
+                                    <input type="radio" name="weight"  id="0-800" value="0.8" class="weight-input">
+                                    <label for="0-800" class="weight product-weight">800 г</label>
+                                    <input type="radio" name="weight"  id="0-1000" value="1" class="weight-input">
+                                    <label for="0-1000" class="weight product-weight">1 кг</label>
+                                </div>
+                                <p class="product-card-price">228 руб.</p>
+                                <div class="amount">
+                                    <label for="amount" class="amount-title">Количество:</label>
+                                    <button id="neadd" type="button" class="button amount-button amount-button-minus"></button>
+                                    <input type="number" id="amount" name="amount" value="1" min="0" class="amount-input"  onkeydown="this.style.width = ((this.value.length + 1) * 15) + 'px';">
+                                    <button id="add" type="button" class="button amount-button amount-button-plus"></button>
+                                </div>
+                                <div class="product-card-buttons">
+                                    <button type="submit" class="button product-card-button product-card-button-buy">Купить</button>
+                                    <button type="button" class="button product-card-button">Добавить в корзину</button>    
+                                </div>
+                            </form>   
+                        </div>                    
+                    </div>
+                </div>
+                <section class="sliders">
+                    <div class="slider slider-birds">
+                        <h2 class="slider-heading">Виды птиц, для которых подойдет данный товар</h2>
+                        <div class="slider-inner">
+                            <button type="button" class="button invisible-button slider-button slider-button-left"></button>
+                            <div class="slider-card">
+                                <img class="slider-card-photo" src="./images/pigeon.png" alt="pigeon" width="100" height="100">
+                                <p class="slider-card-description">Голубь</p>
+                            </div>
+                            <div class="slider-card">
+                                <img class="slider-card-photo" src="./images/sparrow.png" alt="sparrow" width="100" height="100">
+                                <p class="slider-card-description">Воробей</p>
+                            </div>
+                            <div class="slider-card">
+                                <img class="slider-card-photo" src="./images/martin.png" alt="martin" width="100" height="100">
+                                <p class="slider-card-description">Ласточка</p>
+                            </div>
+                            <div class="slider-card">
+                                <img class="slider-card-photo" src="./images/starling.png" alt="starling" width="100" height="100">
+                                <p class="slider-card-description">Скворец</p>
+                            </div>                        
+                            <button type="button" class="button invisible-button slider-button slider-button-right"></button>
+                        </div>
+                    </div>
+                    <div class="slider slider-grains">
+                        <h2 class="slider-heading">Зерна из которых состоит данный товар</h2>
+                        <div class="slider-inner">
+                            <button type="button" class="button invisible-button slider-button slider-button-left"></button>
+                            <div class="slider-card">
+                                <img class="slider-card-photo" src="./images/millet.png" alt="millet" width="100" height="100">
+                                <p class="slider-card-description">Пшено</p>
+                            </div>
+                            <div class="slider-card">
+                                <img class="slider-card-photo" src="./images/bulrush.png" alt="bulrush" width="100" height="100">
+                                <p class="slider-card-description">Просо</p>
+                            </div>
+                            <div class="slider-card">
+                                <img class="slider-card-photo" src="./images/linen.png" alt="linen" width="100" height="100">
+                                <p class="slider-card-description">Лен</p>
+                            </div>
+                            <div class="slider-card">
+                                <img class="slider-card-photo" src="./images/wheat.png" alt="wheat" width="100" height="100">
+                                <p class="slider-card-description">Пшеница</p>
+                            </div>                        
+                            <button type="button" class="button invisible-button slider-button slider-button-right"></button>
+                        </div>
+                    </div>              
+                </section>
+                <section class="section watch-section">
+                    <h2 class="section-heading watch-section-heading">С этим товаром смотрят</h2>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="./images/card-photo-rio-yellow.jpg" alt="card-img" class="card-img" width="275" height="227">
+                            <h2 class="card-heading card-heading-main">Корм для птиц RIO</h2>
+                            <h2 class="card-heading">Линька</h2>
+                            <h3 class="card-description">для волнистых попугайчиков</h3>
+                            <p class="card-price">1000 руб.</p>
+                            <form action="https://fom.in.ua/echo" method="post">
+                                <div class="weight-inputs">
+                                    <input type="radio" name="weight"  id="1-200" value="0.2" class="weight-input" checked>
+                                    <label for="1-200" class="weight">200 г</label>
+                                    <input type="radio" name="weight"  id="1-400" value="0.4" class="weight-input">
+                                    <label for="1-400" class="weight">400 г</label>
+                                    <input type="radio" name="weight"  id="1-800" value="0.8" class="weight-input">
+                                    <label for="1-800" class="weight">800 г</label>
+                                    <input type="radio" name="weight"  id="1-1000" value="1" class="weight-input">
+                                    <label for="1-1000" class="weight">1 кг</label>
+                                </div>
+                                <div class="buttons">
+                                    <a href="#" class="link details">Подробнее</a>
+                                    <button type="submit" class="button buy-button"></button>    
+                                </div>
+                            </form>   
+                            <div class="lable new-lable">Новинка</div>
+                            <div class="lable discount-lable">Скидка</div>   
+                        </div>
+                        <div class="card">
+                            <img src="./images/card-photo-rio-yellow.jpg" alt="card-img" class="card-img" width="275" height="227">
+                            <h2 class="card-heading card-heading-main">Корм для птиц RIO</h2>
+                            <h2 class="card-heading">Линька</h2>
+                            <h3 class="card-description">для волнистых попугайчиков</h3>
+                            <p class="card-price">1000 руб.</p>
+                            <form action="https://fom.in.ua/echo" method="post">
+                                <div class="weight-inputs">
+                                    <input type="radio" name="weight"  id="2-200" value="0.2" class="weight-input" checked>
+                                    <label for="2-200" class="weight">200 г</label>
+                                    <input type="radio" name="weight"  id="2-400" value="0.4" class="weight-input">
+                                    <label for="2-400" class="weight">400 г</label>
+                                    <input type="radio" name="weight"  id="2-800" value="0.8" class="weight-input">
+                                    <label for="2-800" class="weight">800 г</label>
+                                    <input type="radio" name="weight"  id="2-1000" value="1" class="weight-input">
+                                    <label for="2-1000" class="weight">1 кг</label>
+                                </div>
+                                <div class="buttons">
+                                    <a href="#" class="link details">Подробнее</a>
+                                    <button type="submit" class="button buy-button"></button>    
+                                </div>
+                            </form>   
+                            <div class="lable new-lable">Новинка</div>
+                            <div class="lable discount-lable">Скидка</div> 
+                        </div>
+                        <div class="card">
+                            <img src="./images/card-photo-rio-yellow.jpg" alt="card-img" class="card-img" width="275" height="227">
+                            <h2 class="card-heading card-heading-main">Корм для птиц RIO</h2>
+                            <h2 class="card-heading">Линька</h2>
+                            <h3 class="card-description">для волнистых попугайчиков</h3>
+                            <p class="card-price">1000 руб.</p>
+                            <form action="https://fom.in.ua/echo" method="post">
+                                <div class="weight-inputs">
+                                    <input type="radio" name="weight"  id="3-200" value="0.2" class="weight-input" checked>
+                                    <label for="3-200" class="weight">200 г</label>
+                                    <input type="radio" name="weight"  id="3-400" value="0.4" class="weight-input">
+                                    <label for="3-400" class="weight">400 г</label>
+                                    <input type="radio" name="weight"  id="3-800" value="0.8" class="weight-input">
+                                    <label for="3-800" class="weight">800 г</label>
+                                    <input type="radio" name="weight"  id="3-1000" value="1" class="weight-input">
+                                    <label for="3-1000" class="weight">1 кг</label>
+                                </div>
+                                <div class="buttons">
+                                    <a href="#" class="link details">Подробнее</a>
+                                    <button type="submit" class="button buy-button"></button>    
+                                </div>
+                            </form>   
+                            <div class="lable new-lable">Новинка</div>
+                            <div class="lable discount-lable">Скидка</div>      
+                        </div>
+                        <div class="card">
+                            <img src="./images/card-photo-rio-yellow.jpg" alt="card-img" class="card-img" width="275" height="227">
+                            <h2 class="card-heading card-heading-main">Корм для птиц RIO</h2>
+                            <h2 class="card-heading">Линька</h2>
+                            <h3 class="card-description">для волнистых попугайчиков</h3>
+                            <p class="card-price">1000 руб.</p>
+                            <form action="https://fom.in.ua/echo" method="post">
+                                <div class="weight-inputs">
+                                    <input type="radio" name="weight"  id="4-200" value="0.2" class="weight-input" checked>
+                                    <label for="4-200" class="weight">200 г</label>
+                                    <input type="radio" name="weight"  id="4-400" value="0.4" class="weight-input">
+                                    <label for="4-400" class="weight">400 г</label>
+                                    <input type="radio" name="weight"  id="4-800" value="0.8" class="weight-input">
+                                    <label for="4-800" class="weight">800 г</label>
+                                    <input type="radio" name="weight"  id="4-1000" value="1" class="weight-input">
+                                    <label for="4-1000" class="weight">1 кг</label>
+                                </div>
+                                <div class="buttons">
+                                    <a href="#" class="link details">Подробнее</a>
+                                    <button type="submit" class="button buy-button"></button>    
+                                </div>
+                            </form>   
+                            <div class="lable new-lable">Новинка</div>
+                            <div class="lable discount-lable">Скидка</div>      
+                        </div>
+                    </div>                
+                </section>
+                <section class="section buy-section">
+                    <h2 class="section-heading buy-section-heading">С этим товаром покупают</h2>
+                    <div class="cards"> 
+                        <div class="card">
+                            <img src="./images/card-photo-natural-mix.jpg" alt="card-img" class="card-img" width="275" height="227">
+                            <h2 class="card-heading card-heading-main">Корм для птиц RIO</h2>
+                            <h2 class="card-heading">Линька</h2>
+                            <h3 class="card-description">для волнистых попугайчиков</h3>
+                            <p class="card-price">1000 руб.</p>
+                            <form action="https://fom.in.ua/echo" method="post">
+                                <div class="weight-inputs">
+                                    <input type="radio" name="weight"  id="5-200" value="0.2" class="weight-input" checked>
+                                    <label for="5-200" class="weight">200 г</label>
+                                    <input type="radio" name="weight"  id="5-400" value="0.4" class="weight-input">
+                                    <label for="5-400" class="weight">400 г</label>
+                                    <input type="radio" name="weight"  id="5-800" value="0.8" class="weight-input">
+                                    <label for="5-800" class="weight">800 г</label>
+                                    <input type="radio" name="weight"  id="5-1000" value="1" class="weight-input">
+                                    <label for="5-1000" class="weight">1 кг</label>
+                                </div>
+                                <div class="buttons">
+                                    <a href="#" class="link details">Подробнее</a>
+                                    <button type="submit" class="button buy-button"></button>    
+                                </div>
+                            </form>   
+                            <div class="lable new-lable">Новинка</div>
+                            <div class="lable discount-lable">Скидка</div>      
+                        </div>
+                        <div class="card">
+                            <img src="./images/card-photo-natural-mix.jpg" alt="card-img" class="card-img" width="275" height="227">
+                            <h2 class="card-heading card-heading-main">Корм для птиц RIO</h2>
+                            <h2 class="card-heading">Линька</h2>
+                            <h3 class="card-description">для волнистых попугайчиков</h3>
+                            <p class="card-price">1000 руб.</p>
+                            <form action="https://fom.in.ua/echo" method="post">
+                                <div class="weight-inputs">
+                                    <input type="radio" name="weight"  id="6-200" value="0.2" class="weight-input" checked>
+                                    <label for="6-200" class="weight">200 г</label>
+                                    <input type="radio" name="weight"  id="6-400" value="0.4" class="weight-input">
+                                    <label for="6-400" class="weight">400 г</label>
+                                    <input type="radio" name="weight"  id="6-800" value="0.8" class="weight-input">
+                                    <label for="6-800" class="weight">800 г</label>
+                                    <input type="radio" name="weight"  id="6-1000" value="1" class="weight-input">
+                                    <label for="6-1000" class="weight">1 кг</label>
+                                </div>
+                                <div class="buttons">
+                                    <a href="#" class="link details">Подробнее</a>
+                                    <button type="submit" class="button buy-button"></button>    
+                                </div>
+                            </form>   
+                            <div class="lable new-lable">Новинка</div>
+                            <div class="lable discount-lable">Скидка</div>      
+                        </div>
+                        <div class="card">
+                            <img src="./images/card-photo-natural-mix.jpg" alt="card-img" class="card-img" width="275" height="227">
+                            <h2 class="card-heading card-heading-main">Корм для птиц RIO</h2>
+                            <h2 class="card-heading">Линька</h2>
+                            <h3 class="card-description">для волнистых попугайчиков</h3>
+                            <p class="card-price">1000 руб.</p>
+                            <form action="https://fom.in.ua/echo" method="post">
+                                <div class="weight-inputs">
+                                    <input type="radio" name="weight"  id="7-200" value="0.2" class="weight-input" checked>
+                                    <label for="7-200" class="weight">200 г</label>
+                                    <input type="radio" name="weight"  id="7-400" value="0.4" class="weight-input">
+                                    <label for="7-400" class="weight">400 г</label>
+                                    <input type="radio" name="weight"  id="7-800" value="0.8" class="weight-input">
+                                    <label for="7-800" class="weight">800 г</label>
+                                    <input type="radio" name="weight"  id="7-1000" value="1" class="weight-input">
+                                    <label for="7-1000" class="weight">1 кг</label>
+                                </div>
+                                <div class="buttons">
+                                    <a href="#" class="link details">Подробнее</a>
+                                    <button type="submit" class="button buy-button"></button>    
+                                </div>
+                            </form>   
+                            <div class="lable new-lable">Новинка</div>
+                            <div class="lable discount-lable">Скидка</div>      
+                        </div>
+                        <div class="card">
+                            <img src="./images/card-photo-natural-mix.jpg" alt="card-img" class="card-img" width="275" height="227">
+                            <h2 class="card-heading card-heading-main">Корм для птиц RIO</h2>
+                            <h2 class="card-heading">Линька</h2>
+                            <h3 class="card-description">для волнистых попугайчиков</h3>
+                            <p class="card-price">1000 руб.</p>
+                            <form action="https://fom.in.ua/echo" method="post">
+                                <div class="weight-inputs">
+                                    <input type="radio" name="weight"  id="8-200" value="0.2" class="weight-input" checked>
+                                    <label for="8-200" class="weight">200 г</label>
+                                    <input type="radio" name="weight"  id="8-400" value="0.4" class="weight-input">
+                                    <label for="8-400" class="weight">400 г</label>
+                                    <input type="radio" name="weight"  id="8-800" value="0.8" class="weight-input">
+                                    <label for="8-800" class="weight">800 г</label>
+                                    <input type="radio" name="weight"  id="8-1000" value="1" class="weight-input">
+                                    <label for="8-1000" class="weight">1 кг</label>
+                                </div>
+                                <div class="buttons">
+                                    <a href="#" class="link details">Подробнее</a>
+                                    <button type="submit" class="button buy-button"></button>    
+                                </div>
+                            </form>   
+                            <div class="lable new-lable">Новинка</div>
+                            <div class="lable discount-lable discount">Скидка</div>      
+                        </div>
+                    </div>                
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="wrapper header-wrapper">
+                <div>
+                    <a href="#" class="link footer-link pay-link">
+                        Оплата
+                    </a>
+                    <a href="#" class="link footer-link">
+                        Доставка
+                    </a>
+                </div>
+                <div class="socials">
+                    <a href="#" class="link">
+                        <img src="./images/icon-vk.svg" alt="icon-vk" width="25" height="25" class="icons icon-vk">
+                    </a>
+                    <a href="#" class="link">
+                        <img src="./images/icon-insta.svg" alt="icon-insta" width="25" height="25" class="icons">
+                    </a>
+                </div>
+                <div>
+                    <a href="tel:89209994350" class="link footer-link">
+                        <span class="iconify carbon-phone" data-icon="carbon:phone"></span>
+                        8 920 999 43 50
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
+        <!-- <section>
+            <span>0</span>
+        </section>
+        <button id="add">+</button>
+        <button id="neadd">-</button>
+        <script>
+            const container = document.querySelector('#amount');
+            const add = document.querySelector('#add');
+            const remove = document.querySelector('#neadd');
+            
+            add.addEventListener('click', (e) => {
+                const value = container.textContent;
+
+                container.textContent = parseFloat(value) + 1;
+            })
+
+            remove.addEventListener('click', (e) => {
+                const value = container.textContent;
+
+                container.textContent = parseFloat(value) - 1;
+            })
+        </script> -->
+    </body>
+</html>
